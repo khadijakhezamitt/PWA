@@ -1,0 +1,27 @@
+
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+        <div class="sticky">
+   
+    <div  class="chatform" *ngIf="visible">
+        
+        <message-list [messages]="messages"></message-list>
+        <message-form [message]="message" [messages]="messages"></message-form>
+      </div>
+     
+      <div class="container">
+            
+        <div class="text animated  bounce"> 
+             
+           
+              <img  src="\assets\images\bot.png"  (click)="visible = !visible">
+
+         
+        <div>
+            </div>
+           
+            
+       
+</div>
+</div>
+
